@@ -1,0 +1,22 @@
+@import '../mixins';
+.title {
+	display: inline-block;
+	width: 100%;
+	font-family: 'Poppins';
+	font-size: 4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+    background-color: var(--gray-2) ;
+    box-shadow: 6px 5px  rgb(218, 78, 171);
+	color:var(--gray-1); 
+  text-shadow: 
+    1px 1px 2px rgb(218, 78, 171), 
+    2px 2px 4px rgb(235, 221, 30); 
+	@include smallDeviceSize {
+		font-size: 3rem;
+	}
+}
